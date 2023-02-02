@@ -30,9 +30,13 @@ $: Matches the end of a string.
 Here's an example of using regex in JavaScript to check if a string is a valid email address:
 
 javascript
+
 let email = "test@example.com";
+
 let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
 let result = regex.test(email);
+
 console.log(result); // true
 
 The test() method tests if a string matches the regex pattern and returns a boolean value.
