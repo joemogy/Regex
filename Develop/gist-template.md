@@ -8,6 +8,7 @@ Regular expressions, or regex, are a powerful tool used in many programming lang
 Here's a basic structure of a regular expression in JavaScript:
 
 bash
+
 /pattern/flags
 
 The pattern is the string you want to match, and the flags are optional and specify how the pattern should be matched.
